@@ -2,7 +2,7 @@
 
 ## Challenge Details
 
-See `https://github.com/InsightDataScience/digital-wallet` for challenge summary.
+See `https://github.com/InsightDataScience/digital-wallet` for challenge details.
 
 ## How to Run
 
