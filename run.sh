@@ -4,4 +4,8 @@
 # but could be replaced with similar files from any major language
 
 # I'll execute my programs, with the input directory paymo_input and output the files in the directory paymo_output
-java ./src/Antifraud ./paymo_input/batch_payment.txt ./paymo_input/stream_payment.txt ./paymo_output/output1.txt ./paymo_output/output2.txt ./paymo_output/output3.txt
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd src
+javac User.java
+javac Antifraud.java
+java Antifraud $DIR/paymo_input/batch_payment.txt $DIR/paymo_input/stream_payment.txt $DIR/paymo_output/output1.txt $DIR/paymo_output/output2.txt $DIR/paymo_output/output3.txt

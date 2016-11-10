@@ -93,6 +93,9 @@ public class Antifraud {
                     }
                 }
             }
+            bw1.close();
+            bw2.close();
+            bw3.close();
             System.out.println("Finished! Output 3 text files in the paymo_output directory.");
         } catch (IOException e) {
             e.printStackTrace();
