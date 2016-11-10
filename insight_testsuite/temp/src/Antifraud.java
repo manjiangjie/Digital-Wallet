@@ -14,6 +14,7 @@ public class Antifraud {
     private int d;
     private String batch, stream, output1, output2, output3;
 
+
     public Antifraud(String[] args) {
         batch = args[0];
         stream = args[1];
